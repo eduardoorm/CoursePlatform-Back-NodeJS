@@ -1,0 +1,33 @@
+  {{> head}}
+  {{> header}}
+    
+  
+    <div class="formulario-contenedor">
+        <div class="form-titulo">
+            <h1>Registrate y Empieza a Estudiarr!</h1>
+        </div>
+        <div class="form-post">
+        <form id="form" method="POST" action="/postUser">
+                <div class="form-item"><input type="text" name="nombre" id="nombres" placeholder="Nombres"></div>
+                <div class="form-item"><input type="text" name="apellidos" id="apellidos"  placeholder="Apellidos"></div>
+                <div class="form-item"><input type="email" name="email" id="email" placeholder="Email"></div>
+                <div class="form-item"><input type="password" name="password" id="password" placeholder="Password"></div>
+                <!-- <div class="form-item"><input type="password" name="_password" id="password" placeholder="Confirm Password"></div> -->
+                <div class="preview">
+                    <p id="username"></p>
+                </div>
+                <div class="form-item"><input type="submit" value="Enviar" id="started"></div>
+        </form>
+        </div>
+        <div class="register-down">
+            <p class="google">or sign up with <a href="Google" class="link-google">Google</a></p> 
+            <p class="privacy-terms">By signing up, you accept out <a href="#" class="links-terms">Privacy policy</a> and </p>   
+            <p class="privacy-terms"><a href="#" class="links-terms">Privacy policy</a>.</p>
+        </div>
+
+       
+
+   </div>
+   
+  {{> footer}}
+   

@@ -1,0 +1,13 @@
+{
+    "database": {
+
+        "sequelizeConnection": "mysql://root:_Eduardo123@localhost:3306/intesla",
+        "host": "localhost",
+        "user": "root",
+        "password": "_Eduardo123",
+        "database": "intesla"
+
+    }
+
+   
+}

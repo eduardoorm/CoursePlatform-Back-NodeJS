@@ -1,0 +1,21 @@
+  {{> head}}
+
+    <div style="width: 900px; background-color: indianred; margin: auto; height: 500px;text-align: center;" >Este es el reproductor de los videos del curso</div>
+    <div style="width: 500px;margin: auto;;text-align: center;">
+        <SPAN>TITULO DEL VIDEO </span>
+        <button>Anterior</button>
+        <button>Siguiente</button>
+    </div>
+    <div style="margin-left: 7em;">
+        <h2>Comentarios</h2>
+        <form action="/comentario" method="POST">
+        <input style="width: 500px; height: 100px;" type="text" name="desc_comentario" id="" placeholder="Inserte comentario aqui"> <br><br>
+        <input type="submit" value="Comentar">
+        </form> <br><br>
+
+        <div style="width: 500px;border:1px solid black;margin-bottom: 12px;height: 100px;">ESTE ES UN COMENTARIO1</div>
+        <div style="width: 500px;border:1px solid black;margin-bottom: 12px;height: 100px;">ESTE ES UN COMENTARIO2</div>
+        <div style="width: 500px;border:1px solid black;margin-bottom: 50px;height: 100px;">ESTE ES UN COMENTARIO3</div>
+    </div>
+ 
+    {{> footer}}

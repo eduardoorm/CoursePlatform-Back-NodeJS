@@ -1,0 +1,22 @@
+
+  {{> head}}
+  {{> header}}
+<div class="formulario-contenedor">
+        <div class="form-titulo">
+            <h1>Log In yo Your Intesla Account!</h1>
+        </div>
+        <div class="form-post">
+        <form method="POST"  action="/loginUser">
+                <div class="form-item"><input type="email" name="email" id="email" placeholder="Email"></div>
+                <div class="form-item"><input type="password" name="password" id="password" placeholder="Password"></div>
+                <div class="form-item"><input type="submit" value="Enviar" id="started"></div>
+        </form>
+        </div>
+        <div class="register-down">
+            <p class="google">or <a href="Google" class="link-google">Forgot Password</a></p> 
+            <p class="privacy-terms">Don't have an account? <a href="#" class="links-terms">Sign up</a></p>   
+        </div>
+
+   </div>
+  
+    {{> footer}}
